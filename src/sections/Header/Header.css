@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header-container {
+  width: 100%;
+  margin-top: 7.8em;
+}
+
+.header {
+  width: 86.1%;
+  display: flex;
+  flex-direction: row;
+  margin-inline: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4.2em;
+}
+
+.header-content {
+  width: 51.25%;
+}
+
+#text {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 1.4em;
+  letter-spacing: -0.02em;
+  color: #434343;
+}
+
+#subtext {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.46em;
+  margin-block: 3em;
+  color: #434343;
+}
+
+span {
+  background: linear-gradient(90deg, #a02279 100%, #ffc08999 60%);
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  padding: 1.2em 0.9em;
+  background: rgba(247, 247, 247, 0.1);
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+  width: 60.4%;
+  outline: none;
+}
+
+input::placeholder {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.88rem;
+  line-height: 1.3em;
+  color: #b8b8b8;
+}
+
+button {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2em;
+  text-align: center;
+  color: #ffffff;
+  padding: 1.1em 5.4em;
+  border: none;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+}
+
+.companies{
+    width: 100%;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-block: 10px;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.wrapper{
+    padding: 1.6rem;
+    border: 2px solid black;
+    width: 29.2rem;
+}
+.nftimage{
+    width: 100%;
+    height: 26.5rem;
+   
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.information > p{
+    font-size: 1.6rem;
+}
