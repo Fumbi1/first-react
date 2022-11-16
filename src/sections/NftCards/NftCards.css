@@ -42,6 +42,17 @@ img {
   margin-right: 5.09em;
 }
 
+.linked{
+  font-family: "Red Rose";
+  padding: 0.8em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2em;
+  color: #333333;
+  text-decoration: none;
+}
+
 @media(max-width: 1127px){
   .linked{
     display: none;
