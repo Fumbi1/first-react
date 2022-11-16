@@ -161,14 +161,14 @@ const NftCard = () => {
       <Navigation />
       <div className="nftdetails-wrapper">
         <div className="nft-link">
-          <Link className="link" to="#">Resturant</Link>
-          <Link className="link" to="#">Cottage</Link>
-          <Link className="link" to="#">Castle</Link>
-          <Link className="link" to="#">fantast city</Link>
-          <Link className="link" to="#">beach</Link>
-          <Link className="link" to="#">Carbins</Link>
-          <Link className="link" to="#">Off-grid</Link>
-          <Link className="link" to="#">Farm</Link>
+          <Link className="linked" to="#">Resturant</Link>
+          <Link className="linked" to="#">Cottage</Link>
+          <Link className="linked" to="#">Castle</Link>
+          <Link className="linked" to="#">fantast city</Link>
+          <Link className="linked" to="#">beach</Link>
+          <Link className="linked" to="#">Carbins</Link>
+          <Link className="linked" to="#">Off-grid</Link>
+          <Link className="linked" to="#">Farm</Link>
           <button id="location"><p>location</p> <img src={Setting} alt="" /></button>
         </div>
 

@@ -61,3 +61,24 @@
   color: #f7f7f7;
   margin-bottom: 2.31em;
 }
+
+@media(max-width: 678px){
+  .footer {
+    padding-block: 3em;
+  }
+  .footer-wrapper {
+    width: 95%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    align-items: center;
+  }
+
+  .footer-link{
+    width: 100%;
+    text-align: center;
+  }
+}

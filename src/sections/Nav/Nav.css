@@ -23,6 +23,7 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .links {
@@ -32,11 +33,17 @@ img {
   justify-content: space-evenly;
 }
 
-/* .link + .link {
-    margin-left: 3em;
-} */
-
 .link {
+  font-family: "Red Rose", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.25em;
+  color: #434343;
+  text-decoration: none;
+}
+
+.link-nfts {
   font-family: "Red Rose", cursive;
   font-style: normal;
   font-weight: 400;
@@ -57,4 +64,48 @@ img {
   color: #ffffff;
   padding: 0.8em 1.6em;
   border: none;
+}
+
+.links2{
+  display: none;
+}
+
+@media(max-width: 981px){
+  .links{
+    display: none;
+  }
+
+
+  .links2{
+    padding-block: 2em;
+    display: block;
+    width: 86.1%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@media(max-width: 496px){
+  .Connect{
+    font-size: 0.6rem;
+    line-height: 1.25em;
+  }
+
+  .link{
+    font-size: 0.7rem;
+    line-height: 1.25em;
+  }
+
+  .link-nfts{
+    font-size: 0.7rem;
+    line-height: 1.25em;
+  }
+
+  .logo{
+    transform: scale(0.5);
+    margin-left: -20%;
+  }
+
 }

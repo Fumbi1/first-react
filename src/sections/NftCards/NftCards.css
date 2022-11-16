@@ -41,3 +41,9 @@ img {
   color: #333333;
   margin-right: 5.09em;
 }
+
+@media(max-width: 1127px){
+  .linked{
+    display: none;
+  }
+}

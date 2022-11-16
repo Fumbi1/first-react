@@ -47,3 +47,37 @@
     line-height: 1.1em;
     color: #434343;
 }
+
+@media(max-width: 678px){
+  .NftCards {
+    width: 86.1%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    grid-gap: 1.5em;
+  }
+
+  .companies {
+    width: 100%;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 10px;
+    padding-inline: 5%;
+}
+}
+
+@media(max-width: 496px){
+  .NftCards {
+    width: 86.1%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    grid-gap: 1.5em;
+  }
+}

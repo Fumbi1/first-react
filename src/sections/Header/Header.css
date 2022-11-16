@@ -123,3 +123,16 @@ input::placeholder {
   line-height: 60px;
   color: #000000;
 }
+
+@media(max-width: 981px){
+  .header{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .header-content {
+    width: 100%;
+  }
+}

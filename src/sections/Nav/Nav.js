@@ -18,24 +18,33 @@ function Navigation() {
   }
 
     return (
-        <div className='nav'>
-          <div className='logo'>
-          <img src={Logo} alt="logo" />
+        <div>
+          <div className='nav'>
+            <div className='logo'>
+            <img src={Logo} alt="logo" />
+            </div>
+            <div className='links'>
+              <Link className='link-nfts' to='/'>Home</Link>
+              <Link className='link-nfts' to='/nfts-place-to-stay'>Place To Stay</Link>
+              <Link className='link' to='#'>NFTs</Link>
+              <Link className='link' to='#'>Community</Link>
+            </div>
+            <div className='wallet'>
+              <button className='Connect' onClick={modalHandler}>Connect Wallet</button>
+            </div>
+
           </div>
-          <div className='links'>
-            <Link className='link' to='/'>Home</Link>
-            <Link className='link' to='/nfts-place-to-stay'>Place To Stay</Link>
+
+          <div className='links2'>
+            <Link className='link-nfts' to='/'>Home</Link>
+            <Link className='link-nfts' to='/nfts-place-to-stay'>Place To Stay</Link>
             <Link className='link' to='#'>NFTs</Link>
             <Link className='link' to='#'>Community</Link>
           </div>
-          <div className='wallet'>
-            <button className='Connect' onClick={modalHandler}>Connect Wallet</button>
-          </div>
-          
+
           {modalIsOpen && <Modal /> }
           {modalIsOpen && <Backdrop onClick={closemodalHandler} />}
           {modalIsOpen && <Modal onClick={closemodalHandler} />}
-
         </div>
     );
 }
