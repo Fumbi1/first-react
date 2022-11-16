@@ -1,0 +1,8 @@
+.NftCards {
+  width: 86.1%;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  grid-gap: 1.5em;
+}

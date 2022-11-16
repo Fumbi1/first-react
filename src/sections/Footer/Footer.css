@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap");
+
+.footer {
+  width: 100%;
+  background: #1d1d1e;
+}
+
+.footer-wrapper {
+  width: 86.1%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 11.7em;
+  align-items: center;
+}
+
+.footer-companies {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer-logo {
+  margin-top: 3.9rem;
+  margin-bottom: 3rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 2.31em;
+  margin-block: 6em 3.72em;
+}
+
+.footer-desc {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.13rem;
+  line-height: 1.22em;
+  color: #ffffff;
+  margin-bottom: 1.39em;
+}
+
+.footer-text {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.88rem;
+  line-height: 2.5em;
+  color: #f1f3f9;
+  margin-bottom: 1em;
+}
+.footer-text2 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1em;
+  color: #f7f7f7;
+  margin-bottom: 2.31em;
+}

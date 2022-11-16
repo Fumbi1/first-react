@@ -14,7 +14,7 @@ const Header = () => {
                 <p id='subtext'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
                 <div className='search'>
                     <input type="search"  placeholder='Search for location'/>
-                    <button>Search</button>
+                    <button id='Search_btn'>Search</button>
                 </div>
             </div>
             <div className='header-image'>
@@ -25,6 +25,9 @@ const Header = () => {
          <img src={MbToken} alt="mbtoken" />
          <img src={Metamask} alt="metamask" />
          <img src={Opensea} alt="opensea" />
+        </div>
+        <div className='desc'>
+            <p>Inspiration for your next adventure</p>
         </div>
     </div>
   )

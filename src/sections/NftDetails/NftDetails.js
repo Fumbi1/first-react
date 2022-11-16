@@ -1,8 +1,6 @@
-import React from 'react';
-import './NftWalletsCards.css';
+import React from 'react'
 
-const NftsWalletsCards = ({image, desc, night, distance, availaibility, stars}) => {
-
+const NftDetails = ({image, desc, night, distance, availaibility, stars}) => {
   return (
     <>
         <div className='nftcards'>
@@ -27,4 +25,4 @@ const NftsWalletsCards = ({image, desc, night, distance, availaibility, stars}) 
   )
 }
 
-export default NftsWalletsCards
+export default NftDetails

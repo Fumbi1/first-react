@@ -1,43 +1,16 @@
-import Navigation from './sections/Nav/Nav';
-import Header from './sections/Header/Header';
-import Preamble from './sections/NftCards/Preamble';
+import { Routes, Route } from 'react-router-dom';
+import './App.css';
+import NftCard from './sections/NftCards/NftCards';
+import Homepage from './sections/Homepage/Homepage';
 
 function App() {
 
-
-  const datas = [
-    {
-    color: "red", 
-    firstText: "Muyiwa",
-    secondText: "Fcmua"
-  },
-  {
-    color: "green", 
-    firstText: "Muyiwa",
-    secondText: "Fcmua"
-  },{
-    color: "yellow", 
-    firstText: "Muyiwa",
-    secondText: "Fcmua"
-  }
-
-]
-
-
-
   return (
     <>
-      <Navigation />
-      <Header />
-      <div style={{display: "flex"}}>
-      {datas.map(item => {
-        return(
-      
-          <Preamble color={item.color} firstText={item.firstText} secondText={item.secondText}/>
-        )
-      })}
-      
-      </div>
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/nfts-place-to-stay' element={<NftCard />}/>
+      </Routes>
     </>
   );
 }

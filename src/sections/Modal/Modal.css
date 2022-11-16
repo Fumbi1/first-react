@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap");
+
+.modal-card {
+  position: absolute;
+  top: 27.5vh;
+  left: 29.17vw;
+  width: 41.67%;
+  background: #ffffff;
+  border-radius: 1em;
+  padding: 2em;
+  z-index: 10;
+}
+
+.modal-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1.5em;
+}
+
+#x-icon {
+  margin-right: 0.5em;
+}
+
+hr {
+  background-color: #cfd8dc;
+}
+
+#wallet-connect {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25em;
+  color: #333333;
+}
+
+#choice {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25em;
+  margin-block: 2em 1em;
+  color: #333333;
+}
+
+.wallet-address {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  align-items: center;
+  background: #f8f9fa;
+  border: 1px solid #cfd8dc;
+  border-radius: 0.75em;
+  padding-inline: 1.25em 1.66em;
+}
+
+.wallet-address2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    align-items: center;
+    background: #f8f9fa;
+    border: 1px solid #cfd8dc;
+    border-radius: 0.75em;
+    padding-inline: 1.25em 1.66em;
+  }
+
+.wallet-select {
+  width: 37.5%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+  align-items: center;
+}
+
+.wallet-name {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}

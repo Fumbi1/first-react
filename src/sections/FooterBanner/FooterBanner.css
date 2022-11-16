@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap");
+
+.banner {
+  width: 100%;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  padding-block: 6.25em;
+  margin-top: 3.3em;
+}
+
+.banner-wrapper {
+  width: 86.1%;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  width: 33.5%;
+}
+
+.meta {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.25em;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.discover {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.94em;
+  margin-block: 1.94em 3.19em;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.learn_div{
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.learn {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2em;
+  padding: 0.88em 2.06em;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
